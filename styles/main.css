@@ -22,20 +22,20 @@ body
 	line-height: 1.5;
 }
 
-.nav
+.nav ul
 {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
-.nav ul
+.nav ul li
 {
 	display: inline;
 	margin: 0;
 }
 
-.nav a
+.nav ul li a
 {
 	display: block;
 	padding: .7em 1.25em;
