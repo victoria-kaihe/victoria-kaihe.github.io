@@ -29,7 +29,7 @@ body
 	list-style: none;
 }
 
-.nav li
+.nav ul
 {
 	display: inline;
 	margin: 0;
