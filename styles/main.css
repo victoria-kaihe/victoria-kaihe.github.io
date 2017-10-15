@@ -38,6 +38,10 @@ nav ul li a {
   color: #333;
 }
 
-p {
+main p {
+  color: #333
+}
+
+main h3 {
   color: #333
 }
