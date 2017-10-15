@@ -19,6 +19,7 @@ header h1 {
 header h2 {
   margin: 0;
   display: inline;
+  padding: 0 0 0 20px
 }
 
 nav ul{
