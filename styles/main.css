@@ -58,29 +58,20 @@ hr
 	padding: 0;
 }
 
-.content { padding: 1em 1.25em; }
-
-.footer
-{
-	color: #fff;
-	background: #000;
-	padding: 1em 1.25em;
-}
-
-.nav
+.nav ul
 {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
-.nav li
+.nav ul li
 {
 	display: inline;
 	margin: 0;
 }
 
-.nav a
+.nav ul li a
 {
 	display: block;
 	padding: .7em 1.25em;
