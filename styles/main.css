@@ -14,12 +14,12 @@ header {
 header h1 {
   margin: 0;
   display: inline;
+  margin-right: 20px
 }
 
 header h2 {
   margin: 0;
   display: inline;
-  margin: 0 0 0 20px
 }
 
 nav ul{
@@ -36,4 +36,8 @@ nav ul li {
 
 nav ul li a {
   color: #333;
+}
+
+p {
+  color: #333
 }
