@@ -16,8 +16,33 @@ body
 
 .header-heading { margin: 0; }
 
-p
+.p
 {
 	margin: 0 0 1.5em;
 	line-height: 1.5;
 }
+
+.nav
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.nav li
+{
+	display: inline;
+	margin: 0;
+}
+
+.nav a
+{
+	display: block;
+	padding: .7em 1.25em;
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 1px solid gray;
+}
+
+.nav a:link { color: white; }
+.nav a:visited { color: white; }
