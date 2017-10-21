@@ -23,8 +23,7 @@ header h1 {
 		width: 219px;
 		height: 87px;
 		float: left;
-
-		text-indent: 100%;
+		background-color: #eee;
 }
 
 header h2 {
@@ -32,9 +31,8 @@ header h2 {
 	margin-bottom: 40px;
 	width: 200px;
 	height: 18px;
-	float: right;
-
-	text-indent: 100%;
+	float: left;
+	background-color: #eee;
 }
 
 nav ul{
