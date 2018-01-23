@@ -1,70 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <title>Thoughts, Meditations, and Idle Musings </title>
-    <meta charset="UTF-8">
+    <title>Emotional Intelligence</title>
+    <meta charset="utf-8">
+
+    <!--
+      Notice that we have three stylesheet links: the first two are for the Skeleton framework,
+      and the final one is for any custom styles we might need, like turning the background
+      bright pink.
+
+      Please don't make the background pink... have a little pity on your teachers!
+    -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="../styles/main.css">
   </head>
 
   <body>
-  <header>
-    <h1>Tori's Blog</h1>
-    <h2>Udacity Reflection</h2>
+    <div class="container">
+      <div class="row">
 
-    <nav>
-      <ul>
-        <li><a href="https://victoria-kaihe.github.io/">Home</a></li>
-        <li><a href="https://victoria-kaihe.github.io/blog/c1-reflection-blog.html">Culture</a></li>
-        <li><a href="https://victoria-kaihe.github.io/blog/c2-emotional-intelligence.html">Emotional Intelligence</a></li>
-        <li><a href="https://victoria-kaihe.github.io/blog/c1-time-and-habits-blog.html">Time and Habit</a></li>
-        <li><a href="#">Udacity Reflection</a></li>
-        <li><a href="https://victoria-kaihe.github.io/blog/t2-html-css-p2.html">More Udacity Reflection</a></li>
-      </ul>
-    </nav>
-  </header>
+        <div class="twelve columns">
+          <h1>
+            <a href="https://victoria-kaihe.github.io/">Tori.K</a>
+            </h1>
+        </div>
 
- <main>
+      </div>
 
-  <h2>All the web's a stage...</h2>
+      <div class="row">
+        <div class="twelve columns">
+          <a class="button" href="https://victoria-kaihe.github.io/blog/c1-reflection-blog.html">Reflection</a>
+          <a class="button" href="https://victoria-kaihe.github.io/blog/c1-time-and-habits-blog.html">Time + Habits</a>
+          <a class="button" href="https://victoria-kaihe.github.io/blog/c2-emotional-intelligence.html">Emotional Intelligence</a>
+          <a class="button" href="+">CSS + The DOM</a>
+          <a class="button" href="https://victoria-kaihe.github.io/blog/t2-html-css-p2.html">The Box Model</a>
+        </div>
+        <a class="button" href="#">Responsive Design</a>
+        <a class="button" href="#">Meditation Process</a>
+      </div>
 
-  <h3>Can you think of an analogy to describe HTML, CSS and the DOM? How would you describe it to your non-technical friend?</h3>
+        <div class="twelve columns">
+          <img class="u-max-full-width" src="..\images\20171009_164218-01 (5).jpeg" alt="Storm Clouds">
+        </div>
+      </div>
+      <hr>
 
-  <p>I hope this non-technical friend is a theatre friend - things are about to get dramatic. Ok so let's say HTML is a script (ha!) - it's the lines delivered by an actor. CSS is the set, the costumes, the props - everything that gives the script <em>visual</em> context.<p>
+      <div class="row">
+        <div class="twelve columns">
+          <h3>Can you think of an analogy to describe HTML, CSS and the DOM? How would you describe it to your non-technical friend?</h3>
 
-  <p>The DOM...I don't mind admitting I struggled to grasp the DOM well enough to give it an analogy. I'm still not really sure I understand it, but I ran this analogy by a friend who's worked in web development for years, to see if I was at least on the right track. Based on his experience, he saw the DOM filling a different role in my analogy, but conceded that mine still worked.</p>
+          <p>I hope this non-technical friend is a theatre friend - things are about to get dramatic. Ok so let's say HTML is a script (ha!) - it's the lines delivered by an actor. CSS is the set, the costumes, the props - everything that gives the script <em>visual</em> context.<p>
 
-  <p>So in this context, the way I see the DOM fitting in with HTML and CSS, is as the director's notes and storyboard. It's not the script, but it's kind of there. It's not the actual set, but that's all laid out in the storyboard. It's not the actors' movements or the way they interact with the set and the props, but these will all be noted in the storyboard, and the director (in this analogy that's the browser) will refer to the storyboard to make sure everything plays out on stage the way it should.</p>
+          <p>The DOM...I don't mind admitting I struggled to grasp the DOM well enough to give it an analogy. I'm still not really sure I understand it, but I ran this analogy by a friend who's worked in web development for years, to see if I was at least on the right track. Based on his experience, he saw the DOM filling a different role in my analogy, but conceded that mine still worked.</p>
 
-  <p>Just for comparison's sake, here's how my friend sees it.</p>
+          <p>So in this context, the way I see the DOM fitting in with HTML and CSS, is as the director's notes and storyboard. It's not the script, but it's kind of there. It's not the actual set, but that's all laid out in the storyboard. It's not the actors' movements or the way they interact with the set and the props, but these will all be noted in the storyboard, and the director (in this analogy that's the browser) will refer to the storyboard to make sure everything plays out on stage the way it should.</p>
 
-  <img src="Capture.jpg" alt="Conversation Screenshot" width="572" height="215">
+          <p>Just for comparison's sake, here's how my friend sees it.</p>
 
-  <p>I'll be honest, I kind of saw this as more justification for my version, and we ended up going down some rabbit holes.</p>
+          <img src="Capture.jpg" alt="Conversation Screenshot" width="572" height="215">
 
-  <img src="Capture2.PNG" alt="Conversation Rabbithole Screenshot" width="903" height="442">
+          <p>I'll be honest, I kind of saw this as more justification for my version, and we ended up going down some rabbit holes.</p>
 
-  <p>It was a good discussion all around. I think I came away with a better understanding of the DOM than before, and he got to think about it in a way that was unusual for him. It even got him thinking enough to share it with another friend. I'll just leave this here.</p>
+          <img src="Capture2.PNG" alt="Conversation Rabbithole Screenshot" width="903" height="442">
 
-  <img src="Capture3.PNG" alt="Conversation Justification Screenshot" width="577" height="161">
+          <p>It was a good discussion all around. I think I came away with a better understanding of the DOM than before, and he got to think about it in a way that was unusual for him. It even got him thinking enough to share it with another friend. I'll just leave this here.</p>
 
-  <h3>What is meant by "boxifying design"?</h3>
+          <img src="Capture3.PNG" alt="Conversation Justification Screenshot" width="577" height="161">
 
-  <img src="https://e.snmc.io/lk/f/s/fc550b49b715ccce9f5212896b56b593/3362439.jpg" alt="Madonna Vogue Pose" width="218" height="218">
+          <h3>What is meant by "boxifying design"?</h3>
 
-  <p>It means...everything on the internet is in a box. You may not be able to see them, but they're there. Putting things in boxes means we can fit all our elements together nicely. Got some text? Put a box around it. Neat graphic? Into a box it goes. Just remember that time the waiter said, "Enjoy your meal," and you said, "You too"? You know where it goes!</p>
+          <img src="https://e.snmc.io/lk/f/s/fc550b49b715ccce9f5212896b56b593/3362439.jpg" alt="Madonna Vogue Pose" width="218" height="218">
 
-  <p>The box model refers to the design and layout of the boxes our page is made up of. We start with the first box, which is our content - an image, a block of text, a table - whatever.</p>
+          <p>It means...everything on the internet is in a box. You may not be able to see them, but they're there. Putting things in boxes means we can fit all our elements together nicely. Got some text? Put a box around it. Neat graphic? Into a box it goes. Just remember that time the waiter said, "Enjoy your meal," and you said, "You too"? You know where it goes!</p>
 
-  <p>The content is nested inside padding, and it clears a space around your content. The next layer is the border; the border goes around the content and the padding. Next comes the margin, which boxes up the border, the padding, and the content. Each of the boxes dimensions is specified in the stylesheet.</p>
+          <p>The box model refers to the design and layout of the boxes our page is made up of. We start with the first box, which is our content - an image, a block of text, a table - whatever.</p>
 
-  <h3>Blog Wishlist</h3>
+          <p>The content is nested inside padding, and it clears a space around your content. The next layer is the border; the border goes around the content and the padding. Next comes the margin, which boxes up the border, the padding, and the content. Each of the boxes dimensions is specified in the stylesheet.</p>
 
-  <p>My wishlist is quite simple. When I was looking through the Zen Garden templates, I was definitely most drawn to the designs that appeared quite minimal, designs that used colour sparingly or had a limited colour palette. I would like my nav bar to be on the side, with the individual blog posts as drop-down options from their category instead of having every post listed in the nav bar. There was also a neat hover on the Garment template that I really like - it has symbols, which when you hover over them show they're links to the HTML and the CSS.</p>
+          <h3>Blog Wishlist</h3>
 
-  <p>So far I've only come across one site I liked that uses a lot of colour, and that's the <a href="https://stownpodcast.org/">S-Town</a> podcast site. Compared with other pages I like, I'm kind of surprised by how much I love this page. I like the way the graphics move around as you interact with the page. The artwork is beautiful and it doesn't really make sense when you first start listening to the podcast. As you progress through the story though, everything ties in perfectly.</p>
+          <p>My wishlist is quite simple. When I was looking through the Zen Garden templates, I was definitely most drawn to the designs that appeared quite minimal, designs that used colour sparingly or had a limited colour palette. I would like my nav bar to be on the side, with the individual blog posts as drop-down options from their category instead of having every post listed in the nav bar. There was also a neat hover on the Garment template that I really like - it has symbols, which when you hover over them show they're links to the HTML and the CSS.</p>
 
-  <p>I think the more I learn, and the more I use dev tools to explore different sites, the more my wishlist will grow.</p>
+          <p>So far I've only come across one site I liked that uses a lot of colour, and that's the <a href="https://stownpodcast.org/">S-Town</a> podcast site. Compared with other pages I like, I'm kind of surprised by how much I love this page. I like the way the graphics move around as you interact with the page. The artwork is beautiful and it doesn't really make sense when you first start listening to the podcast. As you progress through the story though, everything ties in perfectly.</p>
 
+          <p>I think the more I learn, and the more I use dev tools to explore different sites, the more my wishlist will grow.</p>
+    </div>
+  </div>
+    <hr>
 
-
- </main>
+    <div class="row">
+      <div class="twelve columns offset-by-five">
+        <a href="https://www.facebook.com/victoria.kaihe" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/tolorii/" class="fa fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/victoria-kaihe-26890573/" class="fa fa-linkedin"></a>
+      </div>
+    </div>
+    <hr>
+  </body>
+</html>
