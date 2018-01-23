@@ -1,39 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <title>Thoughts, Meditations, and Idle Musings </title>
-    <meta charset="UTF-8">
+    <title>The Box Model</title>
+    <meta charset="utf-8">
+
+    <!--
+      Notice that we have three stylesheet links: the first two are for the Skeleton framework,
+      and the final one is for any custom styles we might need, like turning the background
+      bright pink.
+
+      Please don't make the background pink... have a little pity on your teachers!
+    -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="../styles/main.css">
   </head>
 
   <body>
-  <header>
-    <h1>Tori's Blog</h1>
-    <h2>Udacity Reflection</h2>
+    <div class="container">
+      <div class="row">
 
-    <nav>
-      <ul>
-        <li><a href="https://victoria-kaihe.github.io/">Home</a></li>
-        <li><a href="https://victoria-kaihe.github.io/blog/c1-reflection-blog.html">Culture</a></li>
-        <li><a href="https://victoria-kaihe.github.io/blog/c2-emotional-intelligence.html">Emotional Intelligence</a></li>
-        <li><a href="https://victoria-kaihe.github.io/blog/c1-time-and-habits-blog.html">Time and Habit</a></li>
-        <li><a href="https://victoria-kaihe.github.io/blog/t2-html-css-dom-p1.html">Udacity Reflection</a></li>
-        <li><a href="#">More Udacity Reflection</a></li>
-      </ul>
-    </nav>
-  </header>
+        <div class="twelve columns">
+          <h1>
+            <a href="https://victoria-kaihe.github.io/">Tori.K</a>
+            </h1>
+        </div>
 
-<main>
-  <h3>What is grid-based design?</h3>
+      </div>
 
-  <p>So - before we talked about everything being in a box. Gridge-based design is when all those boxes are arranged in a way that makes sense to read. We start at the top, then track from left to right and down.</p>
+      <div class="row">
+        <div class="twelve columns">
+          <a class="button" href="https://victoria-kaihe.github.io/blog/c1-reflection-blog.html">Reflection</a>
+          <a class="button" href="https://victoria-kaihe.github.io/blog/c1-time-and-habits-blog.html">Time + Habits</a>
+          <a class="button" href="https://victoria-kaihe.github.io/blog/c2-emotional-intelligence.html">Emotional Intelligence</a>
+          <a class="button" href="https://victoria-kaihe.github.io/blog/t2-html-css-dom-p1.html">CSS + The DOM</a>
+          <a class="button" href="#">The Box Model</a>
+        </div>
+        <a class="button" href="#">Responsive Design</a>
+        <a class="button" href="#">Meditation Process</a>
+      </div>
 
-  <h3>What's all the hype about responsive web pages?</h3>
+        <div class="twelve columns">
+          <img class="u-max-full-width" src="..\images\20171009_164218-01 (6).jpeg" alt="Storm Clouds">
+        </div>
+      </div>
+      <hr>
 
-  <p>Responsive design means our web pages can adjust to best fit the size of the screen they're being displayed on - because sometimes, one size just doesn't fit all.</p>
+      <div class="row">
+        <div class="twelve columns">
+          <h3>What is grid-based design?</h3>
 
-  <h3>What is semantic structure?</h3>
+          <p>So - before we talked about everything being in a box. Gridge-based design is when all those boxes are arranged in a way that makes sense to read. We start at the top, then track from left to right and down.</p>
 
-  <p>Semantics is about meaning. In html, semantic structure is used to give elements meaning that can be understood by both people, and the the browser. Neat, eh?</p>
+          <hr>
 
-</main>
+          <h3>What's all the hype about responsive web pages?</h3>
+
+          <p>Responsive design means our web pages can adjust to best fit the size of the screen they're being displayed on - because sometimes, one size just doesn't fit all.</p>
+
+          <hr>
+
+          <h3>What is semantic structure?</h3>
+
+          <p>Semantics is about meaning. In html, semantic structure is used to give elements meaning that can be understood by both people, and the the browser. Neat, eh?</p>
+    </div>
+  </div>
+    <hr>
+
+    <div class="row">
+      <div class="twelve columns offset-by-five">
+        <a href="https://www.facebook.com/victoria.kaihe" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/tolorii/" class="fa fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/victoria-kaihe-26890573/" class="fa fa-linkedin"></a>
+      </div>
+    </div>
+    <hr>
+  </body>
+</html>
